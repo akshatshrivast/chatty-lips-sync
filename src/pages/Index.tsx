@@ -1,15 +1,14 @@
-
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Waveform, Zap, Download, Clock } from "lucide-react";
+import { AudioWaveform, Zap, Download, Clock } from "lucide-react";
 
 const Index = () => {
   const navigate = useNavigate();
 
   const features = [
     {
-      icon: <Waveform className="h-8 w-8 text-blue-600" />,
+      icon: <AudioWaveform className="h-8 w-8 text-blue-600" />,
       title: "Text to Visemes",
       description: "Convert dialogue text into precise mouth shape animations with timing data"
     },
@@ -46,7 +45,7 @@ const Index = () => {
             onClick={() => navigate('/lip-sync')}
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            <Waveform className="mr-2 h-5 w-5" />
+            <AudioWaveform className="mr-2 h-5 w-5" />
             Start Creating Lip Sync
           </Button>
         </div>

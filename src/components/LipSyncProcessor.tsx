@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Loader2, Play, Download, Waveform } from 'lucide-react';
+import { Loader2, Play, Download, AudioWaveform } from 'lucide-react';
 import { toast } from 'sonner';
 import { LipSyncData, VisemeFrame } from '@/types/lipSync';
 import { generateLipSyncData } from '@/services/lipSyncService';
@@ -77,7 +77,7 @@ export const LipSyncProcessor = () => {
       <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-2xl">
-            <Waveform className="h-6 w-6 text-blue-600" />
+            <AudioWaveform className="h-6 w-6 text-blue-600" />
             Text Input
           </CardTitle>
         </CardHeader>
