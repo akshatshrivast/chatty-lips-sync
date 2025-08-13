@@ -4,14 +4,14 @@
 # 🗣️ Chatty Lip Sync – When AI Talks, and You Believe It
 
 **An AI-powered, real-time lip-syncing digital human that listens, understands, and speaks back naturally.**  
-Every blink, every mouth movement — perfectly in sync.
+Every blink, every mouth movement  perfectly in sync.
 
 ---
 
 </div>
 
 ## ✨ Overview
-**Chatty Lip Sync** isn’t just a voice generator — it’s a full **AI conversation engine** that merges speech recognition, intelligent responses, natural speech synthesis, and perfect lip movements into one immersive experience.  
+**Chatty Lip Sync** isn’t just a voice generator , it’s a full **AI conversation engine** that merges speech recognition, intelligent responses, natural speech synthesis, and perfect lip movements into one immersive experience.  
 
 Imagine chatting with a digital human who not only talks but **looks you in the eye, reacts with emotion, and syncs every lip movement to their words**.  
 It’s **conversation made human**.  
@@ -28,7 +28,7 @@ This backend was developed as part of my **internship project**, focusing on bui
 
 2. **🧠 AI Thinks & Responds**  
    - Transcribed text is sent to **GPT**, generating a smart, human-like reply.  
-   - No pre-written scripts — every answer is unique.
+   - No pre-written scripts every answer is unique.
 
 3. **🎧 From Text to Real Voice**  
    - The reply text is converted into ultra-realistic speech with **ElevenLabs**.
@@ -58,7 +58,7 @@ This backend was developed as part of my **internship project**, focusing on bui
 - **Lip Sync Engine:** Rhubarb Lip Sync  
 - **Backend:** Node.js / Express  
 - **Frontend:** React / Three.js (for 3D avatars)  
-- **Deployment:** Vercel / Render
+
 
 ---
 
